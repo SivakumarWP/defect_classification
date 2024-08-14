@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+*.c
+*.o
+*.a
+*.dylib
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+env.bak/
+venv.bak/
+
+# PyCharm specific files
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code specific files
+.vscode/
+.history/
+
+# Pytest cache
+.cache/
+pytest_cache/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.backup
+*.orig
+
+# Docker files
+docker-compose.yml
+Dockerfile
+
+# Ignore data files and directories
+model/
+dataset/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore specific config files
+*.env
+*.ini
+*.cfg
+*.conf

@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore version control directories
+.git/
+.gitignore
+
+# Ignore Docker-related files (uncomment if you don't want them in the image)
+# Dockerfile
+# .dockerignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other unnecessary files
+*.log
+*.bak
+*.swp
+*.tmp
